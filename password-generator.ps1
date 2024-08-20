@@ -1,4 +1,4 @@
-function Generate-RandomPassword {
+function New-RandomPassword {
     param (
         [int]$Length = 12
     )
@@ -15,5 +15,5 @@ function Generate-RandomPassword {
 }
 
 # Usage example: Generate a 16-character password
-$randomPassword = Generate-RandomPassword -Length 16
+$randomPassword = New-RandomPassword -Length 16
 Write-Host "Random password: $randomPassword"
