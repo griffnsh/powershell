@@ -14,6 +14,5 @@ function New-RandomPassword {
     return $password
 }
 
-# Usage example: Generate a 16-character password
 $randomPassword = New-RandomPassword -Length 16
 Write-Host "Random password: $randomPassword"
